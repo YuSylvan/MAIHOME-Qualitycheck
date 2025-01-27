@@ -17,3 +17,29 @@ Run the following command to execute the script:
 python scripts/check_data.py
 
 The script needs to be run automatically every 12 hours.
+
+## Output
+
+The script generates a CSV file summarizing the results of the data checks. The file is saved in the `Dataresult` folder with a name in the format:
+
+
+### Columns in the Output
+
+- **`Asset ID`**: Unique identifier for the asset being checked.
+- **`Asset Type`**: Type of the asset.
+- **`Asset Key`**: Key associated with the asset for identification.
+- **`Asset Name`**: Name of the asset for easier recognition.
+- **`Has Data (API)`**: Indicates if the API returned data for the asset. Possible values:
+- `True`: Data is available.
+- `API Error`: output the type of error directly(eg http error).
+- **`Check NaN`**: Indicates if all data columns (excluding metadata) are empty. Possible values:
+- `True`: At least one data column has valid data.
+- `False`: All data columns are `NaN`.
+- `"No Data"`: No data was fetched from the API.
+- **`data_availability`**: Indicates if data is both available and not entirely `NaN`. Possible values:
+- `True`: Data is available and valid.
+- `False`: Data is unavailable or invalid.
+- **`threshold_check`**: Indicates if the data values meet the defined thresholds. Possible values:
+- `"TRUE"`: All data is within valid thresholds.
+- List of columns failing the threshold check.
+
