@@ -17,7 +17,7 @@ Run the following command to execute the script:
 python scripts/check_data.py
 
 The script needs to be run automatically every 12 hours.
-
+```bash
 ## Output
 
 The script generates a CSV file summarizing the results of the data checks. The file is saved in the `Dataresult` folder with a name in the format:
