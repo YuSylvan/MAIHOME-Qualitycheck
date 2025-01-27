@@ -10,13 +10,12 @@ To use this script, simply run the `check_data.py` file located in the `scripts`
 3. Save the results to a CSV file in the `Dataresult` folder.
 
 ### Example
-
+The script needs to be run automatically every 12 hours.
 Run the following command to execute the script:
 
 ```bash
 python scripts/check_data.py
 
-The script needs to be run automatically every 12 hours.
 ```
 ## Output
 
