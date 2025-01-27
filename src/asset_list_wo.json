@@ -1,0 +1,123 @@
+[
+    {
+        "id": 9274,
+        "key": "woning_16__-_digitale_meter",
+        "type": "Energiemeter",
+        "name": "WONING 16  - digitale meter"
+    },
+    {
+        "id": 9825,
+        "key": "woning_16_-_badkamer",
+        "type": "Leefruimtes",
+        "name": "WONING 16 - Badkamer"
+    },
+    {
+        "id": 10455,
+        "key": "woning_16_-_badkamer_1",
+        "type": "mclimate vicky",
+        "name": "Woning 16 - Badkamer"
+    },
+    {
+        "id": 9834,
+        "key": "woning_16_-_eetkamer",
+        "type": "Leefruimtes (met enkel pir sensor)",
+        "name": "WONING 16 - Eetkamer"
+    },
+
+    {
+        "id": 9832,
+        "key": "woning_16_-_hal_beneden",
+        "type": "Leefruimtes (met deursensor)",
+        "name": "WONING 16 - Hal beneden"
+    },
+    {
+        "id": 10460,
+        "key": "woning_16_-_hal_beneden_1",
+        "type": "mclimate vicky",
+        "name": "Woning 16 - Hal beneden"
+    },
+    {
+        "id": 15481,
+        "key": "woning_16_-_hal_boven_1",
+        "type": "Leefruimtes (met enkel pir sensor)",
+        "name": "WONING 16 - Hal boven"
+    },
+    {
+        "id": 9826,
+        "key": "woning_16_-_keuken",
+        "type": "Leefruimtes",
+        "name": "WONING 16 - Keuken"
+    },
+    {
+        "id": 10456,
+        "key": "woning_16_-_keuken_1",
+        "type": "mclimate vicky",
+        "name": "Woning 16 - Keuken"
+    },
+    {
+        "id": 9267,
+        "key": "woning_16_-_koelkast",
+        "type": "Grootverbruikers",
+        "name": "WONING 16 - Koelkast"
+    },
+    {
+        "id": 9272,
+        "key": "woning_16_-_living",
+        "type": "Living",
+        "name": "WONING 16 - Living"
+    },
+    {
+        "id": 9269,
+        "key": "woning_16_-_slaapkamer_1",
+        "type": "Slaapkamers",
+        "name": "WONING 16 - slaapkamer 1"
+    },
+    {
+        "id": 10457,
+        "key": "woning_16_-_slaapkamer_1_1",
+        "type": "mclimate vicky",
+        "name": "Woning 16 - Slaapkamer 1"
+    },
+    {
+        "id": 10458,
+        "key": "woning_16_-_slaapkamer_2_1",
+        "type": "mclimate vicky",
+        "name": "Woning 16 - Slaapkamer 2"
+    },
+    {
+        "id": 9270,
+        "key": "woning_16_-_slaapkamer_2",
+        "type": "Slaapkamers",
+        "name": "WONING 16 - slaapkamer 2"
+    },
+    {
+        "id": 9271,
+        "key": "woning_16_-_slaapkamer_3",
+        "type": "Slaapkamers",
+        "name": "WONING 16 - slaapkamer 3"
+    },
+    {
+        "id": 10459,
+        "key": "woning_16_-_slaapkamer_3_1",
+        "type": "mclimate vicky",
+        "name": "Woning 16 - Slaapkamer 3"
+    },
+    {
+        "id": 9268,
+        "key": "woning_16_-_tv",
+        "type": "Grootverbruikers",
+        "name": "WONING 16 - TV"
+    },
+    {
+        "id": 9266,
+        "key": "woning_16_-_wasmachine",
+        "type": "Grootverbruikers",
+        "name": "WONING 16 - Wasmachine"
+    },
+    {
+        "id": 9273,
+        "key": "woning_16_-_watermeter",
+        "type": "Watermeter",
+        "name": "WONING 16 - watermeter"
+    }
+]
