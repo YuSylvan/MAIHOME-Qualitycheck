@@ -43,3 +43,21 @@ The script generates a CSV file summarizing the results of the data checks. The 
 - `"TRUE"`: All data is within valid thresholds.
 - List of columns failing the threshold check.
 
+## Thresholds
+
+The script applies the following thresholds to check the validity of asset data. Any column containing values outside these thresholds will be flagged in the `threshold_check` column in the output CSV file.
+
+| **Column Name**          | **Minimum Value** | **Maximum Value** |
+|---------------------------|-------------------|-------------------|
+| `active_power`           | 0                 | 1000              |
+| `battery`                | 0                 | 100               |
+| `co2`                    | 0                 | 5000              |
+| `current`                | 0                 | 1000              |
+| `humidity`               | 0                 | 100               |
+| `temperature`            | -20               | 50                |
+| `setTemperature`         | -20               | 50                |
+| `temperature.current`    | -20               | 50                |
+| `temperature.set`        | -20               | 50                |
+| `pressure`               | 900               | 1100              |
+| `tvoc`                   | 0                 | 1000              |
+
