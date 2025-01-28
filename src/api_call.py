@@ -226,7 +226,12 @@ def check_import_data(assets, db_manager = None, start_time=datetime.now(ZoneInf
     
     results = pd.DataFrame(results)
 
-    filename = 'results from ' + str(start_time).replace(':', '_').replace('+', '_') + ' to ' + str(end_time).replace(':', '_').replace('+', '_') + '.csv'
+    data_available_count = results['data_availability'].sum()
+    threshold_error_count = data_available_count- (results['threshold_check'] == "TRUE").sum()
+
+    start_time_str = start_time.strftime('%Y-%m-%d_%H')
+    end_time_str = end_time.strftime('%Y-%m-%d_%H')
+    filename = f'results from {start_time_str} to {end_time_str}.csv'
     save_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'Dataresult'))
 
     if not os.path.exists(save_path):
@@ -234,5 +239,5 @@ def check_import_data(assets, db_manager = None, start_time=datetime.now(ZoneInf
     file_path = os.path.join(save_path, filename)
     results.to_csv(file_path, index=False)
 
-
+    print(f"Total assets processed: {len(assets)}. Assets with available data: {data_available_count}, among them assets with threshold errors: {threshold_error_count}.")
     return results

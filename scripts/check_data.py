@@ -16,4 +16,3 @@ end_time = datetime.now(ZoneInfo("UTC"))
 db_manager = None
 df_results = api_call.check_import_data(assets, db_manager, start_time=start_time, end_time=end_time)
 
-print(df_results)
