@@ -7,7 +7,7 @@ from zoneinfo import ZoneInfo
 
 
 
-asset_list_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src', 'asset_list_wo.json'))
+asset_list_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src', 'asset_list.json'))
 assets = api_call.load_assets_from_json(asset_list_path)
 
 # Load the asset list

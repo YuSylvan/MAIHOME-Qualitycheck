@@ -173,6 +173,11 @@ def check_import_data(assets, db_manager = None, start_time=datetime.now(ZoneInf
         asset_type = asset['type']
         asset_key = asset['key']
         asset_name = asset['name']
+
+        if "_-" in asset_key:
+            house, room_or_device = asset_key.split('_-_', 1)
+        else:
+            house, room_or_device = asset_type, asset_key
         
 
         # Query the API endpoint for data aggregates using the provided asset ID and time range
@@ -214,9 +219,9 @@ def check_import_data(assets, db_manager = None, start_time=datetime.now(ZoneInf
      
         results.append({
             'Asset ID': asset_id,
+            'House': house,
+            'Room/Device': room_or_device,
             'Asset Type': asset_type,
-            'Asset key': asset_key,
-            'Asset name': asset_name,
             'Has Data (API)': has_data,
             'Check NaN': check_nan,
             'data_availability': data_availability,

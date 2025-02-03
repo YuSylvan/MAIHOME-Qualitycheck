@@ -1,0 +1,21 @@
+Asset ID,House,Room/Device,Asset Type,Has Data (API),Check NaN,data_availability,threshold_check
+9274,woning_16_,digitale_meter,Energiemeter,True,True,True,TRUE
+9825,woning_16,badkamer,Leefruimtes,True,True,True,TRUE
+10455,woning_16,badkamer_1,mclimate vicky,HTTP Error,No Data,False,No Data
+9834,woning_16,eetkamer,Leefruimtes (met enkel pir sensor),True,True,True,TRUE
+9832,woning_16,hal_beneden,Leefruimtes (met deursensor),True,True,True,TRUE
+10460,woning_16,hal_beneden_1,mclimate vicky,HTTP Error,No Data,False,No Data
+15481,woning_16,hal_boven_1,Leefruimtes (met enkel pir sensor),True,True,True,TRUE
+9826,woning_16,keuken,Leefruimtes,True,True,True,TRUE
+10456,woning_16,keuken_1,mclimate vicky,HTTP Error,No Data,False,No Data
+9267,woning_16,koelkast,Grootverbruikers,True,True,True,TRUE
+9272,woning_16,living,Living,True,True,True,co2
+9269,woning_16,slaapkamer_1,Slaapkamers,True,True,True,TRUE
+10457,woning_16,slaapkamer_1_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10458,woning_16,slaapkamer_2_1,mclimate vicky,HTTP Error,No Data,False,No Data
+9270,woning_16,slaapkamer_2,Slaapkamers,True,True,True,TRUE
+9271,woning_16,slaapkamer_3,Slaapkamers,True,True,True,TRUE
+10459,woning_16,slaapkamer_3_1,mclimate vicky,HTTP Error,No Data,False,No Data
+9268,woning_16,tv,Grootverbruikers,True,True,True,TRUE
+9266,woning_16,wasmachine,Grootverbruikers,True,True,True,TRUE
+9273,woning_16,watermeter,Watermeter,True,True,True,TRUE
