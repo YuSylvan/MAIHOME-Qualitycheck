@@ -1,0 +1,340 @@
+Asset ID,House,Room/Device,Asset Type,Has Data (API),Check NaN,data_availability,threshold_check
+10290,weller_1,badkamer,Leefruimtes,True,True,True,TRUE
+10490,weller_1,badkamer_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10287,weller_1,diepvries,Grootverbruikers,True,True,True,TRUE
+10304,weller_1,digitale_meter,Energiemeter,True,True,True,TRUE
+10285,weller_1,droogkast,Grootverbruikers,True,True,True,TRUE
+10292,weller_1,eetkamer,Leefruimtes (met enkel pir sensor),True,True,True,TRUE
+10299,weller_1,hal_beneden,Leefruimtes (met deursensor),True,True,True,TRUE
+10499,weller_1,hal_beneden_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10293,weller_1,hal_boven,Leefruimtes (met enkel pir sensor),True,True,True,TRUE
+10291,weller_1,keuken,Leefruimtes,True,True,True,TRUE
+10495,weller_1,keuken_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10288,weller_1,koelkast,Grootverbruikers,HTTP Error,No Data,False,No Data
+10295,weller_1,living,Living,True,True,True,TRUE
+10296,weller_1,slaapkamer_1,Slaapkamers,True,False,False,No Data
+10496,weller_1,slaapkamer_1_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10497,weller_1,slaapkamer_2_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10297,weller_1,slaapkamer_2,Slaapkamers,True,False,False,No Data
+10298,weller_1,slaapkamer_3,Slaapkamers,True,False,False,No Data
+10498,weller_1,slaapkamer_3_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10289,weller_1,tv,Grootverbruikers,True,False,False,No Data
+10284,weller_1,wasmachine,Grootverbruikers,True,True,True,TRUE
+10294,weller_1,watermeter,Watermeter,True,True,True,TRUE
+10312,weller_2,badkamer,Leefruimtes,True,True,True,TRUE
+10491,weller_2,badkamer_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10309,weller_2,diepvries,Grootverbruikers,True,True,True,TRUE
+10322,weller_2,digitale_meter,Energiemeter,True,True,True,TRUE
+10308,weller_2,droogkast,Grootverbruikers,True,True,True,TRUE
+10314,weller_2,eetkamer,Leefruimtes (met enkel pir sensor),True,True,True,TRUE
+10321,weller_2,hal_beneden,Leefruimtes (met deursensor),True,False,False,No Data
+10504,weller_2,hal_beneden_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10315,weller_2,hal_boven,Leefruimtes (met enkel pir sensor),True,True,True,TRUE
+10313,weller_2,keuken,Leefruimtes,True,True,True,TRUE
+10500,weller_2,keuken_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10310,weller_2,koelkast,Grootverbruikers,True,True,True,TRUE
+10317,weller_2,living,Living,True,True,True,TRUE
+10318,weller_2,slaapkamer_1,Slaapkamers,True,True,True,TRUE
+10501,weller_2,slaapkamer_1_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10502,weller_2,slaapkamer_2_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10319,weller_2,slaapkamer_2,Slaapkamers,True,True,True,TRUE
+10320,weller_2,slaapkamer_3,Slaapkamers,True,True,True,TRUE
+10503,weller_2,slaapkamer_3_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10311,weller_2,tv,Grootverbruikers,True,True,True,TRUE
+10307,weller_2,wasmachine,Grootverbruikers,True,True,True,TRUE
+10316,weller_2,watermeter,Watermeter,True,True,True,TRUE
+10334,weller_3,badkamer,Leefruimtes,True,False,False,No Data
+10492,weller_3,badkamer_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10331,weller_3,diepvries,Grootverbruikers,True,False,False,No Data
+10545,weller_3,digitale_meter,Energiemeter,HTTP Error,No Data,False,No Data
+10330,weller_3,droogkast,Grootverbruikers,True,False,False,No Data
+10336,weller_3,eetkamer,Leefruimtes (met enkel pir sensor),True,False,False,No Data
+10509,weller_3,hal_beneden_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10343,weller_3,hal_beneden,Leefruimtes (met deursensor),True,False,False,No Data
+10337,weller_3,hal_boven,Leefruimtes (met enkel pir sensor),True,False,False,No Data
+10335,weller_3,keuken,Leefruimtes,True,False,False,No Data
+10505,weller_3,keuken_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10332,weller_3,koelkast,Grootverbruikers,True,False,False,No Data
+10339,weller_3,living,Living,True,False,False,No Data
+10340,weller_3,slaapkamer_1,Slaapkamers,True,False,False,No Data
+10506,weller_3,slaapkamer_1_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10507,weller_3,slaapkamer_2_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10341,weller_3,slaapkamer_2,Slaapkamers,True,False,False,No Data
+10342,weller_3,slaapkamer_3,Slaapkamers,True,False,False,No Data
+10508,weller_3,slaapkamer_3_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10333,weller_3,tv,Grootverbruikers,True,False,False,No Data
+10329,weller_3,wasmachine,Grootverbruikers,True,False,False,No Data
+10350,weller_4,badkamer,Leefruimtes,True,False,False,No Data
+10493,weller_4,badkamer_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10347,weller_4,diepvries,Grootverbruikers,True,False,False,No Data
+10360,weller_4,digitale_meter,Energiemeter,True,True,True,TRUE
+10346,weller_4,droogkast,Grootverbruikers,True,False,False,No Data
+10352,weller_4,eetkamer,Leefruimtes (met enkel pir sensor),True,False,False,No Data
+10359,weller_4,hal_beneden,Leefruimtes (met deursensor),True,False,False,No Data
+10514,weller_4,hal_beneden_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10353,weller_4,hal_boven,Leefruimtes (met enkel pir sensor),True,False,False,No Data
+10351,weller_4,keuken,Leefruimtes,True,False,False,No Data
+10510,weller_4,keuken_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10348,weller_4,koelkast,Grootverbruikers,True,False,False,No Data
+10355,weller_4,living,Living,True,False,False,No Data
+10356,weller_4,slaapkamer_1,Slaapkamers,True,False,False,No Data
+10511,weller_4,slaapkamer_1_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10512,weller_4,slaapkamer_2_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10357,weller_4,slaapkamer_2,Slaapkamers,True,False,False,No Data
+10358,weller_4,slaapkamer_3,Slaapkamers,True,False,False,No Data
+10513,weller_4,slaapkamer_3_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10349,weller_4,tv,Grootverbruikers,True,False,False,No Data
+10345,weller_4,wasmachine,Grootverbruikers,True,False,False,No Data
+10354,weller_4,watermeter,Watermeter,True,False,False,No Data
+10368,weller_5,badkamer,Leefruimtes,HTTP Error,No Data,False,No Data
+10494,weller_5,badkamer_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10365,weller_5,diepvries,Grootverbruikers,True,False,False,No Data
+10378,weller_5,digitale_meter,Energiemeter,HTTP Error,No Data,False,No Data
+10364,weller_5,droogkast,Grootverbruikers,True,False,False,No Data
+10370,weller_5,eetkamer,Leefruimtes (met enkel pir sensor),True,False,False,No Data
+10377,weller_5,hal_beneden,Leefruimtes (met deursensor),True,False,False,No Data
+10519,weller_5,hal_beneden_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10371,weller_5,hal_boven,Leefruimtes (met enkel pir sensor),True,False,False,No Data
+10369,weller_5,keuken,Leefruimtes,True,False,False,No Data
+10515,weller_5,keuken_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10366,weller_5,koelkast,Grootverbruikers,True,False,False,No Data
+10373,weller_5,living,Living,True,False,False,No Data
+10374,weller_5,slaapkamer_1,Slaapkamers,True,False,False,No Data
+10516,weller_5,slaapkamer_1_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10517,weller_5,slaapkamer_2_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10375,weller_5,slaapkamer_2,Slaapkamers,True,False,False,No Data
+10376,weller_5,slaapkamer_3,Slaapkamers,True,False,False,No Data
+10518,weller_5,slaapkamer_3_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10367,weller_5,tv,Grootverbruikers,True,False,False,No Data
+10363,weller_5,wasmachine,Grootverbruikers,True,False,False,No Data
+10372,weller_5,watermeter,Watermeter,True,False,False,No Data
+10406,wonen_in_limburg_1,badkamer,Leefruimtes,True,True,True,TRUE
+10418,wonen_in_limburg_1,badkamer_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10403,wonen_in_limburg_1,diepvries,Grootverbruikers,HTTP Error,No Data,False,No Data
+10416,wonen_in_limburg_1,digitale_meter,Energiemeter,True,True,True,TRUE
+10402,wonen_in_limburg_1,droogkast,Grootverbruikers,True,True,True,TRUE
+10408,wonen_in_limburg_1,eetkamer,Leefruimtes (met enkel pir sensor),True,True,True,TRUE
+10415,wonen_in_limburg_1,hal_beneden,Leefruimtes (met deursensor),True,True,True,TRUE
+10524,wonen_in_limburg_1,hal_beneden_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10409,wonen_in_limburg_1,hal_boven,Leefruimtes (met enkel pir sensor),True,True,True,TRUE
+10407,wonen_in_limburg_1,keuken,Leefruimtes,True,True,True,TRUE
+10520,wonen_in_limburg_1,keuken_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10404,wonen_in_limburg_1,koelkast,Grootverbruikers,True,True,True,TRUE
+10411,wonen_in_limburg_1,living,Living,True,True,True,TRUE
+10412,wonen_in_limburg_1,slaapkamer_1,Slaapkamers,True,True,True,TRUE
+10521,wonen_in_limburg_1,slaapkamer_1_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10522,wonen_in_limburg_1,slaapkamer_2_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10413,wonen_in_limburg_1,slaapkamer_2,Slaapkamers,True,True,True,TRUE
+10414,wonen_in_limburg_1,slaapkamer_3,Slaapkamers,HTTP Error,No Data,False,No Data
+10523,wonen_in_limburg_1,slaapkamer_3_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10405,wonen_in_limburg_1,tv,Grootverbruikers,True,True,True,TRUE
+10401,wonen_in_limburg_1,wasmachine,Grootverbruikers,True,True,True,TRUE
+10410,wonen_in_limburg_1,watermeter,Watermeter,HTTP Error,No Data,False,No Data
+10443,wonen_in_limburg_2,badkamer,Leefruimtes,True,False,False,No Data
+10525,wonen_in_limburg_2,badkamer_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10440,wonen_in_limburg_2,diepvries,Grootverbruikers,True,False,False,No Data
+10453,wonen_in_limburg_2,digitale_meter,Energiemeter,HTTP Error,No Data,False,No Data
+10439,wonen_in_limburg_2,droogkast,Grootverbruikers,True,False,False,No Data
+10445,wonen_in_limburg_2,eetkamer,Leefruimtes (met enkel pir sensor),True,False,False,No Data
+10452,wonen_in_limburg_2,hal_beneden,Leefruimtes (met deursensor),True,False,False,No Data
+10530,wonen_in_limburg_2,hal_beneden_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10446,wonen_in_limburg_2,hal_boven,Leefruimtes (met enkel pir sensor),True,False,False,No Data
+10444,wonen_in_limburg_2,keuken,Leefruimtes,True,False,False,No Data
+10526,wonen_in_limburg_2,keuken_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10441,wonen_in_limburg_2,koelkast,Grootverbruikers,True,False,False,No Data
+10448,wonen_in_limburg_2,living,Living,True,False,False,No Data
+10449,wonen_in_limburg_2,slaapkamer_1,Slaapkamers,True,False,False,No Data
+10527,wonen_in_limburg_2,slaapkamer_1_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10528,wonen_in_limburg_2,slaapkamer_2_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10450,wonen_in_limburg_2,slaapkamer_2,Slaapkamers,True,False,False,No Data
+10451,wonen_in_limburg_2,slaapkamer_3,Slaapkamers,True,False,False,No Data
+10529,wonen_in_limburg_2,slaapkamer_3_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10442,wonen_in_limburg_2,tv,Grootverbruikers,True,False,False,No Data
+10438,wonen_in_limburg_2,wasmachine,Grootverbruikers,True,False,False,No Data
+10447,wonen_in_limburg_2,watermeter,Watermeter,HTTP Error,No Data,False,No Data
+9847,wonen_in_limburg_3,badkamer,Leefruimtes,True,True,True,TRUE
+10463,wonen_in_limburg_3,badkamer_1,mclimate vicky,HTTP Error,No Data,False,No Data
+9838,wonen_in_limburg_3,digitale_meter,Energiemeter,True,True,True,TRUE
+9843,wonen_in_limburg_3,droogkast,Grootverbruikers,True,True,True,TRUE
+9849,wonen_in_limburg_3,eetkamer,Leefruimtes (met enkel pir sensor),True,True,True,TRUE
+9855,wonen_in_limburg_3,hal_beneden,Leefruimtes (met deursensor),True,False,False,No Data
+10468,wonen_in_limburg_3,hal_beneden_1,mclimate vicky,HTTP Error,No Data,False,No Data
+9850,wonen_in_limburg_3,hal_boven,Leefruimtes (met enkel pir sensor),True,True,True,TRUE
+9848,wonen_in_limburg_3,keuken,Leefruimtes,True,True,True,TRUE
+10464,wonen_in_limburg_3,keuken_1,mclimate vicky,HTTP Error,No Data,False,No Data
+9845,wonen_in_limburg_3,koelkast,Grootverbruikers,True,True,True,TRUE
+9851,wonen_in_limburg_3,living,Living,True,True,True,TRUE
+9852,wonen_in_limburg_3,slaapkamer_1,Slaapkamers,True,True,True,TRUE
+10465,wonen_in_limburg_3,slaapkamer_1_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10466,wonen_in_limburg_3,slaapkamer_2_1,mclimate vicky,HTTP Error,No Data,False,No Data
+9853,wonen_in_limburg_3,slaapkamer_2,Slaapkamers,True,True,True,TRUE
+9854,wonen_in_limburg_3,slaapkamer_3,Slaapkamers,True,True,True,TRUE
+10467,wonen_in_limburg_3,slaapkamer_3_1,mclimate vicky,HTTP Error,No Data,False,No Data
+9846,wonen_in_limburg_3,tv,Grootverbruikers,True,True,True,TRUE
+9842,wonen_in_limburg_3,wasmachine,Grootverbruikers,True,True,True,TRUE
+9840,wonen_in_limburg_3,watermeter,Watermeter,HTTP Error,No Data,False,No Data
+9863,wonen_in_limburg_4,badkamer,Leefruimtes,True,True,True,TRUE
+10469,wonen_in_limburg_4,badkamer_1,mclimate vicky,HTTP Error,No Data,False,No Data
+9860,wonen_in_limburg_4,diepvries,Grootverbruikers,True,True,True,TRUE
+9856,wonen_in_limburg_4,digitale_meter,Energiemeter,HTTP Error,No Data,False,No Data
+9859,wonen_in_limburg_4,droogkast,Grootverbruikers,True,True,True,TRUE
+9865,wonen_in_limburg_4,eetkamer,Leefruimtes (met enkel pir sensor),True,True,True,TRUE
+9878,wonen_in_limburg_4,hal_beneden,Leefruimtes (met deursensor),True,True,True,TRUE
+10473,wonen_in_limburg_4,hal_beneden_1,mclimate vicky,HTTP Error,No Data,False,No Data
+9866,wonen_in_limburg_4,hal_boven,Leefruimtes (met enkel pir sensor),True,True,True,TRUE
+9864,wonen_in_limburg_4,keuken,Leefruimtes,True,True,True,TRUE
+10470,wonen_in_limburg_4,keuken_1,mclimate vicky,HTTP Error,No Data,False,No Data
+9861,wonen_in_limburg_4,koelkast,Grootverbruikers,True,True,True,TRUE
+9867,wonen_in_limburg_4,living,Living,True,True,True,TRUE
+9875,wonen_in_limburg_4,slaapkamer_1,Slaapkamers,True,True,True,TRUE
+9876,wonen_in_limburg_4,slaapkamer_2,Slaapkamers,True,True,True,TRUE
+10471,wonen_in_limburg_4,slaapkamer_2_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10472,wonen_in_limburg_4,slaapkamer_3_1,mclimate vicky,HTTP Error,No Data,False,No Data
+9877,wonen_in_limburg_4,slaapkamer_3,Slaapkamers,True,True,True,TRUE
+9862,wonen_in_limburg_4,tv,Grootverbruikers,True,True,True,TRUE
+9858,wonen_in_limburg_4,wasmachine,Grootverbruikers,True,True,True,TRUE
+11909,wonen_in_limburg_4,watermeter,Watermeter,True,True,True,TRUE
+10256,wonen_in_limburg_5,badkamer,Leefruimtes,True,True,True,TRUE
+10484,wonen_in_limburg_5,badkamer_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10253,wonen_in_limburg_5,diepvries,Grootverbruikers,True,True,True,TRUE
+10303,wonen_in_limburg_5,digitale_meter,Energiemeter,HTTP Error,No Data,False,No Data
+10252,wonen_in_limburg_5,droogkast,Grootverbruikers,True,True,True,TRUE
+10258,wonen_in_limburg_5,eetkamer,Leefruimtes (met enkel pir sensor),True,True,True,TRUE
+10266,wonen_in_limburg_5,hal_beneden,Leefruimtes (met deursensor),True,False,False,No Data
+10489,wonen_in_limburg_5,hal_beneden_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10259,wonen_in_limburg_5,hal_boven,Leefruimtes (met enkel pir sensor),True,True,True,TRUE
+10257,wonen_in_limburg_5,keuken,Leefruimtes,True,True,True,TRUE
+10485,wonen_in_limburg_5,keuken_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10254,wonen_in_limburg_5,koelkast,Grootverbruikers,True,True,True,TRUE
+10261,wonen_in_limburg_5,living,Living,True,True,True,TRUE
+10262,wonen_in_limburg_5,slaapkamer_1,Slaapkamers,True,True,True,TRUE
+10486,wonen_in_limburg_5,slaapkamer_1_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10487,wonen_in_limburg_5,slaapkamer_2_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10263,wonen_in_limburg_5,slaapkamer_2,Slaapkamers,True,True,True,TRUE
+10264,wonen_in_limburg_5,slaapkamer_3,Slaapkamers,True,True,True,TRUE
+10488,wonen_in_limburg_5,slaapkamer_3_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10255,wonen_in_limburg_5,tv,Grootverbruikers,True,True,True,TRUE
+10251,wonen_in_limburg_5,wasmachine,Grootverbruikers,True,True,True,TRUE
+10260,wonen_in_limburg_5,watermeter,Watermeter,HTTP Error,No Data,False,No Data
+9821,woning_1,badkamer,Leefruimtes,True,True,True,TRUE
+9813,woning_1,diepvries,Grootverbruikers,True,True,True,TRUE
+9349,woning_1,digitale_meter,Energiemeter,True,True,True,TRUE
+9814,woning_1,droogkast,Grootverbruikers,True,True,True,TRUE
+9837,woning_1,eetkamer,Leefruimtes (met enkel pir sensor),True,True,True,TRUE
+9835,woning_1,hal_beneden,Leefruimtes (met deursensor),True,True,True,TRUE
+9836,woning_1,hal_boven,Leefruimtes (met enkel pir sensor),True,True,True,TRUE
+9822,woning_1,keuken,Leefruimtes,True,True,True,TRUE
+9811,woning_1,koelkast,Grootverbruikers,True,True,True,TRUE
+9815,woning_1,living,Living,True,True,True,TRUE
+9816,woning_1,slaapkamer_1,Slaapkamers,True,True,True,TRUE
+10461,woning_1,slaapkamer_1_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10462,woning_1,slaapkamer_2_1,mclimate vicky,HTTP Error,No Data,False,No Data
+9817,woning_1,slaapkamer_2,Slaapkamers,True,True,True,TRUE
+9818,woning_1,slaapkamer_3,Slaapkamers,True,True,True,TRUE
+10586,wonen_zuid_1,slaapkamer_3,mclimate vicky,HTTP Error,No Data,False,No Data
+9812,woning_1,tv,Grootverbruikers,True,True,True,TRUE
+9351,woning_1,wasmachine,Grootverbruikers,True,True,True,TRUE
+9819,woning_1,watermeter,Watermeter,True,True,True,TRUE
+10478,wonen_zuid_2_,hal_beneden,mclimate vicky,HTTP Error,No Data,False,No Data
+10474,wonen_zuid_2,badkamer_1,mclimate vicky,HTTP Error,No Data,False,No Data
+9883,wonen_zuid_2,badkamer,Leefruimtes,True,True,True,TRUE
+9880,wonen_zuid_2,diepvries,Grootverbruikers,True,True,True,TRUE
+10301,wonen_zuid_2,digitale_meter,Energiemeter,True,True,True,TRUE
+9885,wonen_zuid_2,eetkamer,Leefruimtes (met enkel pir sensor),True,True,True,TRUE
+9891,wonen_zuid_2,hal_beneden,Leefruimtes (met deursensor),True,True,True,TRUE
+9886,wonen_zuid_2,hal_boven,Leefruimtes (met enkel pir sensor),True,True,True,TRUE
+9884,wonen_zuid_2,keuken,Leefruimtes,True,True,True,TRUE
+10475,wonen_zuid_2,keuken_1,mclimate vicky,HTTP Error,No Data,False,No Data
+9881,wonen_zuid_2,koelkast,Grootverbruikers,True,True,True,TRUE
+9888,Living,wonen_zuid_2-__living,Living,True,True,True,TRUE
+9889,Slaapkamers,wonen_zuid_2-__slaapkamer_1,Slaapkamers,True,True,True,TRUE
+10476,wonen_zuid_2,slaapkamer_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10477,wonen_zuid_2,slaapkamer_2_1,mclimate vicky,HTTP Error,No Data,False,No Data
+9890,wonen_zuid_2,slaapkamer_2,Slaapkamers,True,False,False,No Data
+9882,wonen_zuid_2,tv,Grootverbruikers,True,True,True,TRUE
+9879,wonen_zuid_2,wasmachine,Grootverbruikers,True,True,True,TRUE
+9887,wonen_zuid_2,watermeter,Watermeter,True,False,False,No Data
+9896,wonen_zuid_3,badkamer,Leefruimtes,True,True,True,TRUE
+10479,wonen_zuid_3,badkamer_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10302,wonen_zuid_3,digitale_meter,Energiemeter,HTTP Error,No Data,False,No Data
+9893,wonen_zuid_3,droogkast,Grootverbruikers,True,False,False,No Data
+9898,wonen_zuid_3,eetkamer,Leefruimtes (met enkel pir sensor),True,True,True,TRUE
+9905,Leefruimtes (met deursensor),wonen_zuid_3-__hal_beneden,Leefruimtes (met deursensor),True,True,True,TRUE
+10483,wonen_zuid_3,hal_beneden,mclimate vicky,HTTP Error,No Data,False,No Data
+9899,wonen_zuid_3,_hal_boven,Leefruimtes (met enkel pir sensor),True,True,True,TRUE
+9897,wonen_zuid_3,keuken__,Leefruimtes,True,True,True,TRUE
+9894,wonen_zuid_3,koelkast,Grootverbruikers,True,True,True,TRUE
+9901,wonen_zuid_3,_living,Living,True,True,True,co2
+9902,wonen_zuid_3,slaapkamer_1,Slaapkamers,True,True,True,TRUE
+10480,wonen_zuid_3,slaapkamer_1_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10481,wonen_zuid_3,slaapkamer_2_1,mclimate vicky,HTTP Error,No Data,False,No Data
+9903,wonen_zuid_3,slaapkamer_2,Slaapkamers,True,True,True,TRUE
+9904,wonen_zuid_3,slaapkamer_3,Slaapkamers,True,True,True,TRUE
+10482,wonen_zuid_3,slaapkamer_3_1,mclimate vicky,HTTP Error,No Data,False,No Data
+9895,wonen_zuid_3,tv,Grootverbruikers,True,True,True,TRUE
+9892,wonen_zuid_3,wasmachine,Grootverbruikers,True,True,True,TRUE
+9900,wonen_zuid_3,watermeter,Watermeter,True,True,True,TRUE
+10425,wonen_zuid_5,badkamer,Leefruimtes,True,False,False,No Data
+10532,wonen_zuid_5,badkamer_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10422,wonen_zuid_5,diepvries,Grootverbruikers,True,False,False,No Data
+10435,wonen_zuid_5,digitale_meter,Energiemeter,True,False,False,No Data
+10421,wonen_zuid_5,droogkast,Grootverbruikers,True,False,False,No Data
+10427,wonen_zuid_5,eetkamer,Leefruimtes (met enkel pir sensor),True,False,False,No Data
+10434,wonen_zuid_5,hal_beneden,Leefruimtes (met deursensor),True,False,False,No Data
+10537,wonen_zuid_5,hal_beneden_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10428,wonen_zuid_5,hal_boven,Leefruimtes (met enkel pir sensor),True,False,False,No Data
+10426,wonen_zuid_5,keuken,Leefruimtes,True,False,False,No Data
+10533,wonen_zuid_5,keuken_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10423,wonen_zuid_5,koelkast,Grootverbruikers,True,False,False,No Data
+10430,wonen_zuid_5,living,Living,True,False,False,No Data
+10431,wonen_zuid_5,slaapkamer_1,Slaapkamers,True,False,False,No Data
+10534,wonen_zuid_5,slaapkamer_1_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10535,wonen_zuid_5,slaapkamer_2_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10432,wonen_zuid_5,slaapkamer_2,Slaapkamers,True,False,False,No Data
+10433,Slaapkamers,wonen_zuid_5-_slaapkamer_3,Slaapkamers,True,False,False,No Data
+10536,wonen_zuid_5,slaapkamer_3,mclimate vicky,HTTP Error,No Data,False,No Data
+10424,wonen_zuid_5,tv,Grootverbruikers,True,False,False,No Data
+10420,wonen_zuid_5,wasmachine,Grootverbruikers,True,False,False,No Data
+10429,wonen_zuid_5,watermeter,Watermeter,True,False,False,No Data
+10273,wonen_zuid_4,badkamer,Leefruimtes,True,True,True,TRUE
+10538,wonen_zuid_4,badkamer_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10270,wonen_zuid_4,diepvries,Grootverbruikers,True,True,True,TRUE
+10300,wonen_zuid_4,digitale_meter,Energiemeter,True,True,True,TRUE
+10269,wonen_zuid_4,droogkast,Grootverbruikers,True,True,True,TRUE
+10275,wonen_zuid_4,eetkamer,Leefruimtes (met enkel pir sensor),True,True,True,TRUE
+10543,wonen_zuid_4,hal_beneden_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10282,wonen_zuid_4,hal_beneden,Leefruimtes (met deursensor),True,True,True,TRUE
+10276,wonen_zuid_4,hal_boven,Leefruimtes (met enkel pir sensor),True,True,True,TRUE
+10274,wonen_zuid_4,keuken,Leefruimtes,True,True,True,TRUE
+10539,wonen_zuid_4,keuken_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10271,wonen_zuid_4,koelkast,Grootverbruikers,True,True,True,TRUE
+10278,wonen_zuid_4,living,Living,True,True,True,TRUE
+10279,wonen_zuid_4,slaapkamer_1,Slaapkamers,True,True,True,TRUE
+10540,wonen_zuid_4,slaapkamer_1_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10541,wonen_zuid_4,slaapkamer_2_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10280,wonen_zuid_4,slaapkamer_2,Slaapkamers,True,True,True,TRUE
+10281,wonen_zuid_4,slaapkamer_3,Slaapkamers,True,True,True,TRUE
+10542,wonen_zuid_4,slaapkamer_3_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10272,wonen_zuid_4,tv,Grootverbruikers,True,True,True,TRUE
+10268,wonen_zuid_4,wasmachine,Grootverbruikers,True,True,True,TRUE
+10277,wonen_zuid_4,watermeter,Watermeter,HTTP Error,No Data,False,No Data
+9274,woning_16_,digitale_meter,Energiemeter,True,True,True,TRUE
+9825,woning_16,badkamer,Leefruimtes,True,True,True,TRUE
+10455,woning_16,badkamer_1,mclimate vicky,HTTP Error,No Data,False,No Data
+9834,woning_16,eetkamer,Leefruimtes (met enkel pir sensor),True,True,True,TRUE
+9832,woning_16,hal_beneden,Leefruimtes (met deursensor),True,True,True,TRUE
+10460,woning_16,hal_beneden_1,mclimate vicky,HTTP Error,No Data,False,No Data
+9833,woning_16,hal_boven_1,Leefruimtes (met enkel pir sensor),HTTP Error,No Data,False,No Data
+9826,woning_16,keuken,Leefruimtes,True,True,True,TRUE
+10456,woning_16,keuken_1,mclimate vicky,HTTP Error,No Data,False,No Data
+9267,woning_16,koelkast,Grootverbruikers,True,True,True,TRUE
+9272,woning_16,living,Living,True,True,True,co2
+9269,woning_16,slaapkamer_1,Slaapkamers,True,True,True,TRUE
+10457,woning_16,slaapkamer_1_1,mclimate vicky,HTTP Error,No Data,False,No Data
+10458,woning_16,slaapkamer_2_1,mclimate vicky,HTTP Error,No Data,False,No Data
+9270,woning_16,slaapkamer_2,Slaapkamers,True,True,True,TRUE
+9271,woning_16,slaapkamer_3,Slaapkamers,True,True,True,TRUE
+10459,woning_16,slaapkamer_3_1,mclimate vicky,HTTP Error,No Data,False,No Data
+9268,woning_16,tv,Grootverbruikers,True,True,True,TRUE
+9266,woning_16,wasmachine,Grootverbruikers,True,True,True,TRUE
+9273,woning_16,watermeter,Watermeter,True,True,True,TRUE

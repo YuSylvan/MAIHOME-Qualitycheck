@@ -150,51 +150,37 @@ def check_thresholds(df, thresholds):
 
     return "TRUE" if not failed_columns else ", ".join(failed_columns)
 
-def check_import_data(assets, db_manager = None, start_time=datetime.now(ZoneInfo("UTC")) - timedelta(hours=12), end_time=datetime.now(ZoneInfo("UTC"))):
+def check_import_data(assets,thresholds_condition, start_time=datetime.now(ZoneInfo("UTC")) - timedelta(hours=12), end_time=datetime.now(ZoneInfo("UTC"))):
 
     results = []
-    thresholds_MAI = {
-        'active_power': {'min': 0, 'max': 1000}, 
-        'battery': {'min': 0, 'max': 100}, 
-        'co2': {'min': 0, 'max': 5000},    
-        'current': {'min': 0, 'max': 1000},    
-        'humidity': {'min': 0, 'max': 100},     
-        'temperature': {'min': -20, 'max': 50},  
-        'setTemperature': {'min': -20, 'max': 50}, 
-        'temperature.current': {'min': -20, 'max': 50},  
-        'temperature.set': {'min': -20, 'max': 50},    
-        'pressure': {'min': 900, 'max': 1100},  
-        'tvoc' : {'min': 0, 'max': 1000},
-    }
-
-
     for asset in tqdm(assets, desc="Processing assets", unit="asset"):
+        check_nan = "No Data"
+        threshold_check = "No Data"
         asset_id = asset['id']
         asset_type = asset['type']
         asset_key = asset['key']
         asset_name = asset['name']
 
-        if "_-" in asset_key:
-            house, room_or_device = asset_key.split('_-_', 1)
-        else:
-            house, room_or_device = asset_type, asset_key
-        
+        try:
+            if "_-" in asset_key:
+                house, room_or_device = asset_key.split('_-', 1)
+            else:
+                house, room_or_device = asset_type, asset_key
+        except Exception as e:
+            print(f"Error parsing asset key '{asset_key}': {e}")
+            house, room_or_device = "Unknown", "Unknown"
 
-        # Query the API endpoint for data aggregates using the provided asset ID and time range
-        response = query_endpoint('aggregateseries', headers, assetid=asset_id, start_time=start_time, end_time=end_time, dry_run=False)
-        
-        # Determine data availability from the API response
-        if type(response) == dict:
-            has_data = True
-        else:
-            has_data = response
+        # Query the API endpoint for data aggregates
+        try:
+            response = query_endpoint('aggregateseries', headers, assetid=asset_id, start_time=start_time, end_time=end_time, dry_run=False)
+            has_data = isinstance(response, dict)
+        except Exception as e:
+            print(f"Error querying data for asset {asset_id}: {e}")
+            has_data = False
    
-        # Initialize the flag for checking NaN values outside specific columns
-        check_nan = "No Data"
-        threshold_check = "No Data"
+        
 
-        # Check column consistency
-        # columns_match = False
+        # NAN value check
         if has_data == True:
             reading_data = extract_reading_data(response, asset_id)
             df = pd.DataFrame(reading_data)
@@ -208,15 +194,13 @@ def check_import_data(assets, db_manager = None, start_time=datetime.now(ZoneInf
         data_availability = has_data == True and check_nan == True
     
 
-        # If data is available, check data check_thresholds and import it into db
+        # If data is available, check data check_thresholds
         if data_availability:
             datadf = getdf(asset_id,response)
-            threshold_check = check_thresholds(datadf, thresholds_MAI)
-            if db_manager != None:
-                datadf = getdf(asset_id,response)
-                db_manager.insert_readings(datadf)
+            threshold_check = check_thresholds(datadf, thresholds_condition)
+
                 
-     
+        # Output and save result
         results.append({
             'Asset ID': asset_id,
             'House': house,
@@ -234,15 +218,20 @@ def check_import_data(assets, db_manager = None, start_time=datetime.now(ZoneInf
     data_available_count = results['data_availability'].sum()
     threshold_error_count = data_available_count- (results['threshold_check'] == "TRUE").sum()
 
-    start_time_str = start_time.strftime('%Y-%m-%d_%H')
-    end_time_str = end_time.strftime('%Y-%m-%d_%H')
-    filename = f'results from {start_time_str} to {end_time_str}.csv'
-    save_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'Dataresult'))
+    try:
+        start_time_str = start_time.strftime('%Y-%m-%d_%H')
+        end_time_str = end_time.strftime('%Y-%m-%d_%H')
+        filename = f'results_from_{start_time_str}_to_{end_time_str}.csv'
+        save_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'Dataresult'))
 
-    if not os.path.exists(save_path):
-        os.makedirs(save_path)
-    file_path = os.path.join(save_path, filename)
-    results.to_csv(file_path, index=False)
+        if not os.path.exists(save_path):
+            os.makedirs(save_path)
+
+        file_path = os.path.join(save_path, filename)
+        results.to_csv(file_path, index=False)
+        print(f"Results saved to {file_path}")
+    except Exception as e:
+        print(f"Error saving results to CSV: {e}")
 
     print(f"Total assets processed: {len(assets)}. Assets with available data: {data_available_count}, among them assets with threshold errors: {threshold_error_count}.")
     return results
